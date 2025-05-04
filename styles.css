@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+.nav-restaurant {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    color: red;
+    background-color: rgb(243, 226, 67);
+ 
+}
+
+.nav-restaurant h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-body {
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input {
+    border-radius: 8px;
+    background-color: rgb(244, 244, 204);
+    border: 1px red solid;
+    color: rgb(97, 94, 94);
+    padding: 10px;
+    height: 25px;
+}
+
+.image-food {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 10px;
+    color: rgb(97, 94, 94);
+}
+
+.list-food {
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#btCalcular {
+    border-radius: 50px;
+    border: 2px red solid;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(243, 226, 67);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante JS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav-restaurant">
+        <h1>Restaurante JS</h1>
+    </header>
+    <body class="nav-body">
+    <section class="image-food">
+        <img src="comida.png" alt="Imagem do chef" class="food">
+    </section>
+    
+    <section class="list-food">
+        <p>Buffet por Quilo R$: <input type="text" id="inQuilo" class="input" /></p>
+        <p>Consumo do Cliente (gr): <input type="text" id="inConsumo" class="input"/></p>
+        <p><input type="button" value="Calcular preço" id="btCalcular" /></p>
+        <p id="outValor"></p>
+    </section>
+    </body>
+
+    <script src="script.js"></script>
+  </body>
+</html>
